@@ -12,7 +12,6 @@ const App = () => {
 	const [task, setTask] = useState(""); 
 	const [tasks, setTasks] = useState([]); 
 	const [editIndex, setEditIndex] = useState(-1); 
-
 	const handleAddTask = () => { 
 		if (task) { 
 			if (editIndex !== -1) { 
